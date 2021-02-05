@@ -1,6 +1,0 @@
-
-class CarritoProducto{
-    constructor(){
-       
-    }
-}

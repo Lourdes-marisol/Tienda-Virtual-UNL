@@ -1,26 +1,29 @@
 import React from 'react';
 import {
   Nav,
+  NavBtn,
   NavLink,
   NavMenu,
-  NavBtn,
-  NavSpace,
   Button,
-  Input,
+  ButtonC,
+  Imput,
+  Cabecera,
 } from './NavbarElements';
 const Navbar = () => {
   return (
     <>
-    <NavSpace>
-      <h1>FEDEL</h1>
-      <Input placeholder="Ingrese su búsqueda " type="text" />
-    <NavBtn>
-          <Button to='/carrito'>Carrito</Button>
-        </NavBtn>
-        <NavBtn>
-          <Button to='/micuenta'>Mi cuenta</Button>
-        </NavBtn>
-          </NavSpace>
+    <Cabecera>
+      <Imput placeholder="Ingrese aqui su busqueda">
+      </Imput>
+      <NavBtn>
+        <Button to='/carrito' activeStyle>
+            ""
+        </Button>
+        <ButtonC>
+          ""
+        </ButtonC>
+      </NavBtn>
+    </Cabecera>
       <Nav>
         <NavMenu>
         <NavLink to='/mujeres' activeStyle>
