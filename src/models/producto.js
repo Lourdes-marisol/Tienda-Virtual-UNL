@@ -7,7 +7,7 @@ module.exports= (sequelize,type)=>{
             autoIncrement: true
         },
         nombreP: type.STRING,
-        categoria: type.STRING,
+        categoriaP: type.STRING,
         tallaP: type.INTEGER,
         estadoP: type.STRING,
         imagenP: type.STRING,
