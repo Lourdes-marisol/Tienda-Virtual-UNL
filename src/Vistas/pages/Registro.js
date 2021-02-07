@@ -1,5 +1,7 @@
 import React, {Fragment, useState} from 'react';
-
+import { Button } from 'react-bootstrap';
+import Footer from '../components/footer'
+import './../Registro.css'
 const Registro =() =>{
     const [datos, setDatos]= useState({
         nombres:'',
@@ -23,7 +25,10 @@ const Registro =() =>{
     }
     
     return(
+        <body>
+        <div>
         <Fragment>
+
             <h1>Formulario</h1>
             <form className="row" onSubmit={enviarDatos}>
                 <div className="col-md-3">
@@ -75,11 +80,42 @@ const Registro =() =>{
 
 
                 <div className="col-md-3">
-                <button className="btn-btn-primary" type="submit">Registrar</button>
+                <Button className="button" type="submit">Registrar</Button>
                 </div>
+                
                 
             </form>
         </Fragment>
+        </div>
+        <div>
+           <Footer>
+            <Footer.Wrapper>
+            <Footer.Row>
+                <Footer.Column>
+                <Footer.Title>Contactanos</Footer.Title>
+                    <Footer.Link href="#">FEDEL OFICIAL</Footer.Link>
+                    <Footer.Link href="#">FEDEL OFICIAL</Footer.Link>
+                    <Footer.Link href="#">@fedel</Footer.Link>
+                    <Footer.Link href="#">fedel@gemail.com</Footer.Link>
+                </Footer.Column>
+                <Footer.Column>
+                <Footer.Title>Empresa</Footer.Title>
+                    <Footer.Link href="#">Quienes Somos</Footer.Link>
+                    <Footer.Link href="#">Mision y Vision</Footer.Link>
+                    <Footer.Link href="#">Nuesytos Clientes</Footer.Link>
+                </Footer.Column>
+                <Footer.Column>
+                <Footer.Title>Productos</Footer.Title>
+                    <Footer.Link href="#">Disponibidad</Footer.Link>
+                    <Footer.Link href="#">Devoluciones</Footer.Link>
+                    <Footer.Link href="#">Ventas al por Mayor</Footer.Link>
+                </Footer.Column>
+            </Footer.Row>
+            </Footer.Wrapper>
+        </Footer>
+      </div>
+        </body>
+        
 
     );
 }

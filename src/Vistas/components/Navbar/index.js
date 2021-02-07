@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
   Nav,
   NavBtn,
@@ -40,17 +41,20 @@ const Navbar = () => {
           </NavLink>
           <NavLink to='/catalogo' activeStyle>
             CATALOGO
-          </NavLink> <NavLink to='/informacion' activeStyle>
+          </NavLink> 
+          <NavLink to='/informacion' activeStyle>
             QUIENES SOMOS
           </NavLink>
-          </NavLink> <NavLink to='/Registro' activeStyle>
+          <NavLink to='/Registro' activeStyle>
             REGISTRARSE
           </NavLink>
-          </NavLink> <NavLink to='/Login' activeStyle>
+          <NavLink to='/Login' activeStyle>
             INGRESAR
           </NavLink>
         </NavMenu>
       </Nav>
+
+
     </>
   );
 };
