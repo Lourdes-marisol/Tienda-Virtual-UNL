@@ -27,6 +27,16 @@ const Login = () => {
         <Fragment>
           <h1>Ingresar</h1>
           <form className="row" onSubmit={enviarDatos}>
+            {/* <div id="u13">
+              <img id="u13_img" class="img " src="" alt="some value" />
+              <div
+                id="u13_text"
+                class="text "
+                style={{ display: "none", visibility: "hidden" }}
+              >
+                <p></p>
+              </div>
+            </div> */}
             <div className="col-md-3">
               <input
                 placeholder="Correo Electrónico"

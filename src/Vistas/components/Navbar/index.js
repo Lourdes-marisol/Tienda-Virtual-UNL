@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import {
   Nav,
@@ -9,52 +9,47 @@ import {
   ButtonC,
   Imput,
   Cabecera,
-} from './NavbarElements';
+} from "./NavbarElements";
 const Navbar = () => {
   return (
     <>
-    <Cabecera>
-      <Imput placeholder="Ingrese aqui su busqueda">
-      </Imput>
-      <NavBtn>
-        <Button to='/carrito' activeStyle>
+      <Cabecera>
+        <Imput placeholder="Ingrese aqui su busqueda"></Imput>
+        <NavBtn>
+          <Button to="/carrito" activeStyle>
             ""
-        </Button>
-        <ButtonC>
-          ""
-        </ButtonC>
-      </NavBtn>
-    </Cabecera>
+          </Button>
+          <ButtonC>""</ButtonC>
+        </NavBtn>
+      </Cabecera>
       <Nav>
         <NavMenu>
-        <NavLink to='/mujeres' activeStyle>
+          <NavLink to="/mujeres" activeStyle>
             MUJERES
           </NavLink>
-          <NavLink to='/hombres' activeStyle>
+          <NavLink to="/hombres" activeStyle>
             HOMBRES
           </NavLink>
-          <NavLink to='/accesorios' activeStyle>
+          <NavLink to="/accesorios" activeStyle>
             ACCESORIOS
           </NavLink>
-          <NavLink to='/novedades' activeStyle>
+          <NavLink to="/novedades" activeStyle>
             NOVEDADES
           </NavLink>
-          <NavLink to='/catalogo' activeStyle>
+          <NavLink to="/catalogo" activeStyle>
             CATALOGO
-          </NavLink> 
-          <NavLink to='/informacion' activeStyle>
+          </NavLink>
+          <NavLink to="/informacion" activeStyle>
             QUIENES SOMOS
           </NavLink>
-          <NavLink to='/Registro' activeStyle>
+          <NavLink to="/Registro" activeStyle>
             REGISTRARSE
           </NavLink>
-          <NavLink to='/Login' activeStyle>
+          <NavLink to="/Login" activeStyle>
             INGRESAR
           </NavLink>
         </NavMenu>
       </Nav>
-
-
     </>
   );
 };
