@@ -43,6 +43,12 @@ const Navbar = () => {
           </NavLink> <NavLink to='/informacion' activeStyle>
             QUIENES SOMOS
           </NavLink>
+          </NavLink> <NavLink to='/Registro' activeStyle>
+            REGISTRARSE
+          </NavLink>
+          </NavLink> <NavLink to='/Login' activeStyle>
+            INGRESAR
+          </NavLink>
         </NavMenu>
       </Nav>
     </>

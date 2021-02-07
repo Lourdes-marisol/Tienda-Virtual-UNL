@@ -11,6 +11,8 @@ import Catalogo from '../src/Vistas/pages/catalogo';
 import Accesorios from '../src/Vistas/pages/accesorios';
 import Carrito from '../src/Vistas/pages/carrito';
 import Micuenta from '../src/Vistas/pages/micuenta';
+import Login from '../src/Vistas/pages/Login';
+import Registro from '../src/Vistas/pages/Registro'
 
 function App() {
   return(
@@ -26,6 +28,8 @@ function App() {
         <Route path='/accesorios' exact component={Accesorios}/>
         <Route path='/carrito' exact component={Carrito} />
         <Route path='/micuenta' exact component={Micuenta} />
+        <Route path='/Login' exact component={Login} />
+        <Route path='/Registro' exact component={Registro} />
         </Switch>
     </Router>
   );
