@@ -1,0 +1,9 @@
+.main__title {
+  display: flex;
+  margin-right: 200px;
+  align-items: center;
+}
+
+h1{
+    text-align:center;
+}
