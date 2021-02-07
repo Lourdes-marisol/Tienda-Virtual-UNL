@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import "./../Login.css";
+import "./../css/Login.css";
 import { Button } from "react-bootstrap";
 import Footer from "../components/footer";
 const Login = () => {

@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 import { Button } from "react-bootstrap";
 import Footer from "../components/footer";
-import "./../Registro.css";
+import "./../css/Registro.css";
 const Registro = () => {
   const [datos, setDatos] = useState({
     nombres: "",

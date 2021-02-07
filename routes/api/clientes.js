@@ -3,7 +3,6 @@ const { check, validationResult } = require("express-validator");
 const bcrypt = require("bcrypt");
 const { Cliente } = require("../../src/Controlador/db");
 
-//Mostrar productos generales
 router.get("/", async (req, res) => {
   const clientes = await Cliente.findAll();
   res.json(clientes);
