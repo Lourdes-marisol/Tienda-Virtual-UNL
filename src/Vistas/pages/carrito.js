@@ -7,16 +7,33 @@ const Carrito = () => {
             <body>
                 <div className="flex-container">
                     <div className="flex-item-productos">
+                        <div className="productos">
+                        </div>
                     </div>
                     <div className="flex-item-detalles">
+                        <div className="detalles">
+                            <h6>Nombre del produto</h6>
+                            <h6>Precio</h6>
+                            <p>
+                                La descrpcion de este producto va aquí
+                            </p>
+                            <div>
+                                <a href=""> Eliminar</a><br></br>
+                                <a href=""> Guardar mas tarde</a>
+                            </div>
+                        </div>
                     </div>
                     <div className="flex-item-verMas">
+
+                        <h6>Total</h6>
+                        <button>
+                            Proceder con la compra
+                    </button>
                     </div>
                 </div>
                 <h3>Los clientes tambien compraron:</h3>
                 <div className="flex-containerCompraron">
                     <div className="producto1">
-                        
                     </div>
                     <div className="producto2">
                     </div>
