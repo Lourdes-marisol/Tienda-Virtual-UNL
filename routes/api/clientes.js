@@ -16,12 +16,12 @@ router.get("/:clienteId", async (req, res) => {
 router.post(
   "/",
   [
-    check("nombreC", "Se debe llenar este campo").not().isEmpty(),
-    check("correoElectronicoC", "Se debe llenar este campo").not().isEmpty(),
-    check("telefonoC", "Se debe llenar este campo").not().isEmpty(),
-    check("claveC", "Se debe llenar este campo").not().isEmpty(),
-    check("claveConfirmada", "Se debe llenar este campo").not().isEmpty(),
-    check("edadC", "Se debe llenar este campo").not().isEmpty(),
+    check("nombres", "Se debe llenar este campo").not().isEmpty(),
+    check("correo", "Se debe llenar este campo").not().isEmpty(),
+    check("telefono", "Se debe llenar este campo").not().isEmpty(),
+    check("clave", "Se debe llenar este campo").not().isEmpty(),
+    // check("claveConfirmada", "Se debe llenar este campo").not().isEmpty(),
+    check("edad", "Se debe llenar este campo").not().isEmpty(),
   ],
   async (req, res) => {
     const errors = validationResult(req);
@@ -29,8 +29,8 @@ router.post(
     if (!errors.isEmpty()) {
       return res.status(422).json({ errores: errors.array() });
     }
-    req.body.claveC = bcrypt.hashSync(req.body.claveC, 5);
-    req.body.claveConfirmada = bcrypt.hashSync(req.body.claveConfirmada, 5);
+    req.body.clave = bcrypt.hashSync(req.body.clave, 5);
+    // req.body.claveConfirmada = bcrypt.hashSync(req.body.claveConfirmada, 5);
     const clientes = await Cliente.create(req.body);
     res.json(clientes);
   }
