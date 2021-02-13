@@ -20,9 +20,15 @@ const [sidebarOpen, setsidebarOpen] = useState(false);
       <div className="main__container">      
       <h1> Modificar datos de la cuenta </h1>
       <h3> Contraseña </h3>
+      <div className = "input">
       <input type="password" placeholder = "Ingrese su contraseña actual"/> 
+      </div>
+      <div className = "input">
        <input type="password" placeholder = "Ingrese su contraseña nueva"/> 
+       </div>
+       <div className = "input">
         <input type="password" placeholder = "Ingrese su contraseña nueva otra vez"/> 
+        </div>
         <button className = "button" onclick="myFunction()">Cambiar contraseña</button>
       </div>
      <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
