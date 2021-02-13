@@ -1,0 +1,169 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 600px;
+}
+
+.Producto{
+    position: relative;
+    top: 5%;
+    left: 2%;
+    background-color: rgb(243, 247, 238);
+    width: 450px;
+    height: 500px;
+    border:2px solid rgb(36, 34, 34);
+}
+
+.Detalles{
+    position: relative;
+    background-color: rgb(236, 234, 234);
+    left: 38%;
+    bottom: 80%;
+    width: 800px;
+    height: 300px;
+}
+.calificar{
+    position: relative;
+    bottom: 5%;
+}
+.precio{
+    position: relative;
+    bottom: 8%;
+}
+.codigoP{
+    position: relative;
+    bottom: 4%;
+}
+
+.conDescripcion{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    bottom: 10%;
+    width: auto;
+    height: 200px;
+}
+.descripcion{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.boxColor{
+    display: inline;
+    position: relative;
+    left: 12px;
+    bottom: 34px;
+}
+
+.tColor{
+    position: relative;
+    left: 5%;
+    bottom: 6%;
+}
+.boxTalla{
+    display: inline;
+    position: relative;
+    left: 16%;
+    bottom: 121px;
+}
+.tTalla{
+    position: relative;
+    left: 20%;
+    bottom: 50%;
+}
+.boxCantidad{
+    display: inline;
+    position: relative;
+    left: 30%;
+    bottom: 104%;
+}
+
+.tCantidad{
+    position: relative;
+    left: 32%;
+    bottom: 93%;
+}
+
+.comentario{
+    bottom: 25%;
+    display: inline;
+    position: relative;
+    left: 35%;
+}
+.btnCarrito{
+    bottom: 28%;
+    left: 2%;
+    cursor: pointer;
+    border-radius: 2%;
+    border: 2px solid rgb(5, 5, 5); 
+    padding: 6px 6px;
+    position: relative;
+    background-color: rgb(116, 189, 113);  
+    color: rgb(0, 0, 0); 
+}
+.btnCarrito:hover{
+    background-color: rgb(190, 181, 181);
+    color: rgb(0, 0, 0);
+}
+.enviar{
+    background-color: rgb(18, 163, 168);
+    color: white;
+}
+
+
+
+
+
+
+
+.container2{
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 300px;
+    border: 2px solid rgba(0, 0, 0, 0.667);
+}
+
+.recomendado1{
+    width: 200px;
+    height: 280px;
+    left: 2%;
+    position: relative;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0) ;
+}
+.recomendado2{
+    bottom: 95%;
+    height: 280px;
+    width: 200px;
+    position: relative;
+    left: 20%;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0) ;
+}.recomendado3{
+    bottom: 190%;
+    height: 280px;
+    width: 200px;
+    position: relative;
+    left: 38%;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0) ;
+}.recomendado4{
+    height: 280px;
+    bottom: 284%;
+    width: 200px;
+    position: relative;
+    left: 58%;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0) ;
+}
+.recomendado5{
+    height: 280px;
+    bottom: 379%;
+    width: 200px;
+    position: relative;
+    left: 78%;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0) ;
+}

@@ -1,0 +1,33 @@
+.cabecera{
+    width: auto;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 14, 14);
+}
+
+.title{
+    margin-left: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(8, 8, 8);
+}
+
+.carroC{
+    bottom: -10%;    
+     left: 18%;
+     cursor: pointer;
+     position: relative;
+ }
+.cuentaC{
+    bottom: -12%;
+    left: 20%;
+    cursor: pointer;
+    position: relative;
+}
+.buscar{
+    border-color: rgb(10, 10, 10);
+    border-radius: 4%;
+    width: 400px;
+    margin-left: 40%;
+    height: 35px;;
+}

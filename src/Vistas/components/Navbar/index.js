@@ -1,27 +1,22 @@
 import React from "react";
-
-import {
-  Nav,
-  NavBtn,
-  NavLink,
-  NavMenu,
-  Button,
-  ButtonC,
-  Imput,
-  Cabecera,
-} from "./NavbarElements";
+import { Link } from 'react-router-dom';
+import Carrito from '../../images/carrito.svg';
+import Cuenta from '../../images/usuario.svg';
+import { Nav, NavLink, NavMenu } from "./NavbarElements";
+import '../../css/stylesNavbar.css';
 const Navbar = () => {
   return (
-    <>
-      <Cabecera>
-        <Imput placeholder="Ingrese aqui su busqueda"></Imput>
-        <NavBtn>
-          <Button to="/carrito" activeStyle>
-            ""
-          </Button>
-          <ButtonC>""</ButtonC>
-        </NavBtn>
-      </Cabecera>
+    <body>
+      <div className="cabecera">
+        <h1 className="title">FDEL</h1>
+        <input className="buscar" placeholder="Ingrese aquí su búsqueda" />
+        <Link className="carroC" to="/carrito">
+          <img src={Carrito} alt="" width="35" />;
+            </Link>
+        <Link className="cuentaC">
+          <img src={Cuenta} alt="" width="35" />;
+            </Link>
+      </div>
       <Nav>
         <NavMenu>
           <NavLink to="/mujeres" activeStyle>
@@ -45,12 +40,12 @@ const Navbar = () => {
           <NavLink to="/Registro" activeStyle>
             REGISTRARSE
           </NavLink>
-          <NavLink to="/Login" activeStyle>
+          <NavLink to="/iniciarSesion" activeStyle>
             INGRESAR
           </NavLink>
         </NavMenu>
       </Nav>
-    </>
+    </body>
   );
 };
 export default Navbar;

@@ -1,0 +1,155 @@
+.contenedorC{
+    flex-direction: column;
+    background-color: rgb(204, 200, 200);
+    width: auto;
+    height: 550px;
+}
+
+.productosC{
+    position: relative;
+    background-color:rgb(204, 200, 200);
+    top: 1%;
+    left: 2%;
+    width: 300px;
+    height: 540px;
+}
+.producto1{
+    top: 2%;
+    left: 15%;
+    width: 160px;
+    height: 160px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+.producto2{
+    top: 4%;
+    left: 15%;
+    position: relative;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+.producto3{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    top: 6%;
+    left: 15%;
+    background-color: white;
+    border: 2px solid black;
+}
+.detallesC{
+    position: relative;
+    background-color: rgb(204, 200, 200);
+    left: 25%;
+    bottom: 97%;
+    width: 700px;
+    height: 540px;
+}
+.detalles1{
+    top: 2%;
+    left: 15%;
+    width: 500px;
+    height: 160px;
+    position: relative;
+    background-color: rgb(190, 184, 184);
+    border: 2px solid black;
+}
+
+.boxCantidadC{
+    position: relative;
+    bottom: 45%;
+    right: 42%;
+}
+.textCantidad{
+    position: relative;
+    left: 6%;
+}
+.precio{
+    position: relative;
+    left: 70%;
+    bottom: 50%;
+}
+.eliminar{
+    display: inline;
+    position: relative;
+    left: 40%;
+    bottom: 45%;
+}
+
+.guardar{
+    display: inline;
+    position: relative;
+    left: 50%;
+    bottom: 45%;
+
+}
+.detalles2{
+    top: 4%;
+    left: 15%;
+    position: relative;
+    width: 500px;
+    height: 160px;
+    background-color: rgb(190, 184, 184);
+    border: 2px solid black;
+}
+.detalles3{
+    position: relative;
+    width: 500px;
+    height: 160px;
+    top: 6%;
+    left: 15%;
+    background-color:rgb(190, 184, 184);
+    border: 2px solid black;
+}
+.verMas{
+    position: relative;
+    background-color: rgb(204, 200, 200);
+    left: 78%;
+    bottom: 191%;
+    width: 290px;
+    height: 480px;
+}
+
+.total{
+    background-color:  rgb(204, 200, 200);
+    width: 150px;
+    height: 150px;
+    top: 2%;
+    left: 22%;
+    position: relative;
+    color: black;
+}
+
+.comprar{
+    position: relative;
+    left: 2%;
+    background-color: rgb(156, 240, 73);
+    color: black;
+    background-color: blanchedalmond;
+    color: black;
+    cursor: pointer;
+}
+.comprar:hover{
+    
+    background-color: rgb(156, 240, 73);
+    color: black;
+}
+.otros{
+    position: relative;
+    background-color: rgb(255, 252, 249);
+    width: 250px;
+    height: 288px;
+    top: 4%;
+    left: 6%;
+    position: relative;
+    border: 2px solid rgb(14, 13, 13);
+    color: black;
+}
+.continer2{
+    background-color: blue;
+    width: auto;
+    height: 200px;
+}

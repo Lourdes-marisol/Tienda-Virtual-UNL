@@ -1,0 +1,259 @@
+.contenedorHombre{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 1300px;
+    height: 990px;
+    left: 6%;
+}
+
+.productoId1{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 300px;
+    top: 2%;
+    left: 1%;
+    border: 1px solid black;
+}
+.detallesProducto1{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    top: 67%;
+    border: 1px solid black;
+}
+.productoId2{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 300px;
+    bottom: 28.5%;
+    left: 23%;
+    border: 1px solid black;
+
+}
+.detallesProducto2{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    top: 67%;
+    border: 1px solid black;
+
+
+}.productoId3{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 300px;
+    bottom: 59%;
+    left: 45%;
+    border: 1px solid black;
+
+}
+.detallesProducto3{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    top: 67%;
+    border: 1px solid black;
+
+
+}.productoId4{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 300px;
+    bottom: 89.5%;
+    left: 67%;
+    border: 1px solid black;
+
+}
+.detallesProducto4{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    top: 67%;
+    border: 1px solid black;
+
+
+}.productoId5{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 300px;
+    bottom: 87%;
+    left: 1%;
+    border: 1px solid black;
+
+}
+.detallesProducto5{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    top: 67%;
+    border: 1px solid black;
+
+
+}.productoId6{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 300px;
+    bottom: 117.6%;
+    left: 23%;
+    border: 1px solid black;
+
+}
+.detallesProducto6{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    top: 67%;
+    border: 1px solid black;
+
+
+}.productoId7{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 300px;
+    bottom: 148.2%;
+    left: 45%;
+    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid black;
+
+}
+.detallesProducto7{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    top: 67%;
+    border: 1px solid black;
+
+
+}.productoId8{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 300px;
+    bottom: 178.8%;
+    left: 67%;
+    border: 1px solid black;
+
+}
+.detallesProducto8{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    top: 67%;
+    border: 1px solid black;
+
+
+}.productoId9{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 300px;
+    bottom: 176%;
+    left: 1%;
+    border: 1px solid black;
+
+}
+.detallesProducto9{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    top: 67%;
+    border: 1px solid black;
+
+
+}.productoId10{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 300px;
+    bottom: 206.5%;
+    left: 23%;
+    border: 1px solid black;
+
+}
+.detallesProducto10{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    top: 67%;
+    border: 1px solid black;
+
+
+}.productoId11{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 300px;
+    bottom: 237.4%;
+    left: 45%;
+    border: 1px solid black;
+
+}
+.detallesProducto11{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    top: 67%;
+    border: 1px solid black;
+
+
+}.productoId12{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 300px;
+    bottom: 268%;
+    left: 67%;
+    border: 1px solid black;
+
+}
+.detallesProducto12{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    top: 67%;
+    border: 1px solid black;
+
+
+}
+
+.animacion{
+    position: relative;
+    width: auto;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    animation-name: animacion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacion{
+    0%{
+        background-color: black;
+        color: white;
+    }
+    100%{
+        background-color: rgb(180, 132, 76);
+        color: rgb(0, 0, 0);
+    }
+}

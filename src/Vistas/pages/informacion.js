@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../components/footer'
-import '../Estilos/stylesInformacion.css'
+import '../css/stylesInformacion.css';
 const Informacion = () => {
   return (
     <body>
