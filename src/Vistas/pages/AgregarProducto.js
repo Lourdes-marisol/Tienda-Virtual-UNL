@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 import { useState } from "react";
-import "./../css/ModificarDatos.css";
+
 import "./../components/mainAdmin/Main.css";
 import Navbar from "./../components/navbarAdmin/Navbar";
 import Sidebar from "./../components/sidebarAdmin/Sidebar";
@@ -20,22 +20,11 @@ const [sidebarOpen, setsidebarOpen] = useState(false);
     <div className="container">
       <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
       <div className="main__container">      
+      <div className="h1">
+      <h4> Agregar Productos </h4>
       
-      <div className = "h1">
-      <h4> Modificar datos de la cuenta </h4>
       </div>
       
-      <h3> Contraseña </h3>
-      <div className = "input">
-      <input type="password" placeholder = "Ingrese su contraseña actual"/> 
-      </div>
-      <div className = "input">
-       <input type="password" placeholder = "Ingrese su contraseña nueva"/> 
-       </div>
-       <div className = "input">
-        <input type="password" placeholder = "Ingrese su contraseña nueva otra vez"/> 
-        </div>
-        <button className = "button" onclick="myFunction()">Cambiar contraseña</button>
          
       </div>
      <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
