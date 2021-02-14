@@ -1,9 +1,12 @@
 import React from 'react';
 import Footer from '../components/footer'
 import '../css/stylesInformacion.css';
+import Navbar from "../components/Navbar";
+
 const Informacion = () => {
   return (
     <body>
+        <Navbar></Navbar>
         <div className="App">
             <h2>Quienes somos?</h2>
             <div className="Texto">

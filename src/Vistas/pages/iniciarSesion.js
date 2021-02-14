@@ -3,11 +3,13 @@ import Footer from "../components/footer";
 import LogoTienda from '../images/tienda.svg';
 import LogoEmail from '../images/correo.svg';
 import LogoClave from '../images/candado.svg';
+import Navbar from "../components/Navbar";
 import "./../css/stylesSesion.css";
 
 const InicioSesion = () => {
     return (
         <body>
+            <Navbar/>
             <div className="contenedor">
                     <h3 className="text"> Ingresar</h3>
                     <div className="logo">

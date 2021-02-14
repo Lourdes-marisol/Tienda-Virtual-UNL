@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Navbar from "../src/Vistas/components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "../src/Vistas/pages/home";
 import Hombres from "../src/Vistas/pages/hombres";
@@ -15,12 +14,11 @@ import Login from "../src/Vistas/pages/Login";
 import InicioSesion from "../src/Vistas/pages/iniciarSesion";
 import Productos from "../src/Vistas/pages/producto";
 import Carrito from "../src/Vistas/pages/carrito";
-
+import Modificar from "../src/Vistas/pages/ModificarDatos";
 
 function App() {
   return (
     <Router>
-      <Navbar />
       <Switch>
         <Route path="/Home" exact component={Home} />
         <Route path="/hombres" exact component={Hombres} />
@@ -35,6 +33,8 @@ function App() {
         <Route path="/iniciarSesion" exact component={InicioSesion} />
         <Route path="/producto" exact component={Productos} />
         <Route path="/carrito" exact component={Carrito} />
+        <Route path="/ModificarDatos" exact component={Modificar} />
+
 
       </Switch>
     </Router>

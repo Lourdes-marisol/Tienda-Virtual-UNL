@@ -1,9 +1,11 @@
 import React from 'react';
 import Footer from '../components/footer'
 import '../css/stylesSecciones.css';
+import Navbar from "../components/Navbar";
 const Hombres = () => {
     return (
         <body>
+            <Navbar />
             <div>
                 <div className="animacion">HOMBRES</div>
                 <div className="contenedorHombre">

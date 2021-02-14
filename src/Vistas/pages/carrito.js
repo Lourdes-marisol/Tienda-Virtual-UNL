@@ -2,9 +2,11 @@ import React from 'react';
 import { Alert } from 'react-bootstrap';
 import Footer from '../components/footer';
 import "./../css/stylesCarrito.css";
+import Navbar from "../components/Navbar";
 const Carrito = () => {
     return (
         <body>
+            <Navbar/>
             <div>
                 <div className="contenedorC">
                     <div className="productosC">

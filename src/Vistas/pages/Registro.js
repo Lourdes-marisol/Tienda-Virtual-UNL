@@ -2,6 +2,7 @@ import React, { Fragment, useState } from "react";
 import { Button } from "react-bootstrap";
 import Footer from "../components/footer";
 import "./../css/Registro.css";
+import Navbar from "../components/Navbar";
 const Registro = () => {
   const [datos, setDatos] = useState({
     nombres: "",
@@ -26,6 +27,7 @@ const Registro = () => {
 
   return (
     <body>
+      <Navbar/>
       <div>
         <Fragment>
           <h1>Formulario</h1>

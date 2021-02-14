@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link className="carroC" to="/carrito">
           <img src={Carrito} alt="" width="35" />;
             </Link>
-        <Link className="cuentaC">
+        <Link className="cuentaC" to="/ModificarDatos">
           <img src={Cuenta} alt="" width="35" />;
             </Link>
       </div>

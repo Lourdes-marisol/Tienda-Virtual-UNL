@@ -5,6 +5,9 @@
   padding: 20px;
   -webkit-transition: all 0s;
   transition: all 0.5s;
+  position: relative;
+  width: 300px;
+  bottom: 472px;
 
 }
 

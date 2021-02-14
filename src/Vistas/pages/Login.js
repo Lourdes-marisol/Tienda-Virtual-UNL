@@ -2,6 +2,7 @@ import React, { Fragment, useState } from "react";
 import "./../css/Login.css";
 import { Button } from "react-bootstrap";
 import Footer from "../components/footer";
+import Navbar from "../components/Navbar";
 const Login = () => {
   const [datos, setDatos] = useState({
     correo: "",
@@ -23,6 +24,7 @@ const Login = () => {
 
   return (
     <body>
+      <Navbar/>
       <div>
         <Fragment>
           <h1>Ingresar</h1>

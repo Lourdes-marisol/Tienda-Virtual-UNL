@@ -1,9 +1,11 @@
 import React from 'react';
 import Footer from '../components/footer';
 import '../css/stylesSecciones.css';
+import Navbar from "../components/Navbar";
 const Accesorios = () => {
   return (
     <body>
+        <Navbar/>
             <div>
             <div className="animacion">Acesorios</div>
                 <div className="contenedorHombre">

@@ -1,7 +1,6 @@
-﻿import "./../css/GestionarProductos.css";
-import { useState } from "react";
+﻿import { useState } from "react";
+import "./../css/GestionarProductos.css";
 import "./../components/mainAdmin/Main.css";
-import Main from "./../components/mainAdmin/Main";
 import Navbar from "./../components/navbarAdmin/Navbar";
 import Sidebar from "./../components/sidebarAdmin/Sidebar";
 
@@ -14,15 +13,11 @@ const [sidebarOpen, setsidebarOpen] = useState(false);
     setsidebarOpen(false);
   };
   return (
-    
-  
     <div className="container">
       <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
       <div className="main__container">
-        
       <h1> Gestionar Productos </h1>
       </div>
-      
      <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
     </div>
     
