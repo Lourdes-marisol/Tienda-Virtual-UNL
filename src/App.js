@@ -15,6 +15,10 @@ import InicioSesion from "../src/Vistas/pages/iniciarSesion";
 import Productos from "../src/Vistas/pages/producto";
 import Carrito from "../src/Vistas/pages/carrito";
 import Modificar from "../src/Vistas/pages/ModificarDatos";
+import Baja from "../src/Vistas/pages/darBajaCuenta";
+import Seguimiento from "../src/Vistas/pages/darBajaCuenta";
+import Historial from "../src/Vistas/pages/darBajaCuenta";
+import ModificarCliente from "../src/Vistas/pages/darBajaCuenta";
 
 function App() {
   return (
@@ -34,6 +38,10 @@ function App() {
         <Route path="/producto" exact component={Productos} />
         <Route path="/carrito" exact component={Carrito} />
         <Route path="/ModificarDatos" exact component={Modificar} />
+        <Route path="/darBajaCuenta" exact component={Baja} />
+        <Route path="/historial" exact component={Historial} />
+        <Route path="/seguimiento" exact component={Seguimiento} />
+        <Route path="/modificarDatosCliente" exact component={ModificarCliente} />
 
 
       </Switch>
