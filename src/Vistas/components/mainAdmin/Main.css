@@ -5,9 +5,12 @@ main {
 }
 
 .main__container {
-  padding: 20px 35px;
+  padding: 8px 15px;
   position: relative;
-  left: 34%;
+  margin-left:20px;
+ 
+  grid-area: main;
+
 }
 
 .main__title {
@@ -21,7 +24,7 @@ main {
   object-fit: contain;
   margin-right: 20px;
 }
-
+/*
 .main__greeting > h1 {
   font-size: 24px;
   color: #2e4a66;
@@ -196,3 +199,4 @@ main {
     margin-top: 30px;
   }
 }
+*/

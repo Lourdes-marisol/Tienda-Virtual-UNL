@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "../src/Vistas/pages/home";
@@ -42,7 +43,6 @@ function App() {
         <Route path="/historial" exact component={Historial} />
         <Route path="/seguimiento" exact component={Seguimiento} />
         <Route path="/modificarDatosCliente" exact component={ModificarCliente} />
-
 
       </Switch>
     </Router>

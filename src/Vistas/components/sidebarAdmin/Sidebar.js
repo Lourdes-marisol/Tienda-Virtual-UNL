@@ -1,8 +1,7 @@
 ﻿import "./Sidebar.css";
 import logo from "../../assets/logo.png";
-import GestionarProductos from "./../../pages/GestionarProductos";
-import ModificarDatos from "./../../pages/ModificarDatos";
 
+import React from "react";
 const Sidebar = ({ sidebarOpen, closeSidebar }) => {
   return (
     <div className={sidebarOpen ? "sidebar_responsive" : ""} id="sidebar">
@@ -26,7 +25,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
 
       <div className="sidebar__menu">
         <div className="sidebar__link">
-          <i className="fa fa-home"></i>
+          <i className="fa fa-home" ></i>
           <a href="#">Inicio</a>
         </div>
         
