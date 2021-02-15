@@ -33,7 +33,7 @@
   text-align: center;
   left: 30%;
   background-color: rgb(250, 244, 244);
-  width: 630px;
+  width: 480px;
   height: 570px;
   border-radius: 2%;
   border: 3px solid rgb(82, 79, 79);
@@ -54,7 +54,7 @@
   font-family: "Arial Negrita", "Arial Normal", "Arial", sans-serif;
   font-weight: bold;
   position: relative;
-  left: 10%;
+  left: 0%;
 }
 
 .form-control {
