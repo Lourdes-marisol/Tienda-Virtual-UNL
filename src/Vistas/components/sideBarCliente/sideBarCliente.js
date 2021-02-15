@@ -7,6 +7,7 @@ import Historial from '../../images/iconSiderCliente/historial.svg';
 import Borrar from '../../images/iconSiderCliente/borrar.svg';
 const sideBarCliente = () => {
     return (
+        <div>
             <div className="contenedorCuenta">
                 <Link className="cuentaI">
                     <img src={CuentaIcon} alt="" width="120" />;
@@ -47,6 +48,7 @@ const sideBarCliente = () => {
                     </div>
                     </div>
             </div>
+        </div>
     )
 }
 
