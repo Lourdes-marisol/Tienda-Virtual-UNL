@@ -16,6 +16,7 @@ import InicioSesion from "../src/Vistas/pages/iniciarSesion";
 import Productos from "../src/Vistas/pages/producto";
 import Carrito from "../src/Vistas/pages/carrito";
 import Modificar from "../src/Vistas/pages/ModificarDatos";
+import GestionarProductos from "../src/Vistas/pages/GestionarProductos";
 import Baja from "../src/Vistas/pages/darBajaCuenta";
 import Seguimiento from "../src/Vistas/pages/darBajaCuenta";
 import Historial from "../src/Vistas/pages/historial";
@@ -43,6 +44,8 @@ function App() {
         <Route path="/historial" exact component={Historial} />
         <Route path="/seguimiento" exact component={Seguimiento} />
         <Route path="/modificarDatosCliente" exact component={ModificarCliente} />
+        <Route path="/GestionarProductos" exact component={GestionarProductos} />
+
       </Switch>
       
     </Router>
