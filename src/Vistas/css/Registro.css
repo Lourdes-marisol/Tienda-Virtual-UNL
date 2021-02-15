@@ -1,14 +1,14 @@
-h1 {
-  text-align: center;
-  margin-top: 50px;
+* {
+  margin: 0;
+  padding: 0;
 }
-
 .row {
   text-align: center;
   grid-row: span;
+  height: 200px;
 }
 .col-md-3 {
-  padding: 4px;
+  padding: 0;
 }
 
 .button {
@@ -24,4 +24,37 @@ h1 {
   margin: 4px 2px;
   cursor: pointer;
   margin-bottom: 50px;
+}
+
+.contenedor_registro {
+  position: relative;
+  text-align: center;
+  left: 30%;
+  background-color: rgb(250, 244, 244);
+  width: 630px;
+  height: 570px;
+  border-radius: 2%;
+  border: 3px solid rgb(82, 79, 79);
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+#titulo_formulario {
+  padding-top: 0px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 22pt;
+  font-family: "Arial Negrita", "Arial Normal", "Arial", sans-serif;
+}
+
+#titles {
+  font-size: 14px;
+  font-family: "Arial Negrita", "Arial Normal", "Arial", sans-serif;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 500px;
+  height: 30px;
+  padding-top: 3px;
 }

@@ -40,7 +40,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-        {/* descripción del producto principal destacado */}
       </div>
 
       <div>

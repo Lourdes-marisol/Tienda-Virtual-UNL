@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from 'react-router-dom';
-import Carrito from '../../images/carrito.svg';
-import Cuenta from '../../images/usuario.svg';
+import { Link } from "react-router-dom";
+import Carrito from "../../images/carrito.svg";
+import Cuenta from "../../images/usuario.svg";
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
-import '../../css/stylesNavbar.css';
+import "../../css/stylesNavbar.css";
 const Navbar = () => {
   return (
     <body>
@@ -12,13 +12,16 @@ const Navbar = () => {
         <input className="buscar" placeholder="Ingrese aquí su búsqueda" />
         <Link className="carroC" to="/carrito">
           <img src={Carrito} alt="" width="35" />;
-            </Link>
+        </Link>
         <Link className="cuentaC" to="/ModificarDatos">
           <img src={Cuenta} alt="" width="35" />;
-            </Link>
+        </Link>
       </div>
       <Nav>
         <NavMenu>
+          <NavLink to="/home" activeStyle>
+            INICIO
+          </NavLink>
           <NavLink to="/mujeres" activeStyle>
             MUJERES
           </NavLink>

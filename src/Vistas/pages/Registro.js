@@ -27,14 +27,14 @@ const Registro = () => {
 
   return (
     <body>
-      <Navbar/>
-      <div>
+      <Navbar />
+      <div className="contenedor_registro">
         <Fragment>
-          <h1>Formulario</h1>
+          <h1 id="titulo_formulario">Formulario</h1>
           <form className="row" onSubmit={enviarDatos}>
             <div className="col-md-3">
+              <p id="titles">Ingrese sus nombres completos</p>
               <input
-                placeholder="Ingrese sus Nombres completos"
                 className="form-control"
                 type="text"
                 name="nombres"
@@ -42,8 +42,8 @@ const Registro = () => {
               ></input>
             </div>
             <div className="col-md-3">
+              <p id="titles">Ingrese su correo</p>
               <input
-                placeholder="Ingrese su correo"
                 className="form-control"
                 type="email"
                 name="correo"
@@ -51,8 +51,8 @@ const Registro = () => {
               ></input>
             </div>
             <div className="col-md-3">
+              <p id="titles">Ingrese su telefono</p>
               <input
-                placeholder="Ingrese su telefono"
                 className="form-control"
                 type="text"
                 name="telefono"
@@ -60,8 +60,8 @@ const Registro = () => {
               ></input>
             </div>
             <div className="col-md-3">
+              <p id="titles">Ingrese su contraseña</p>
               <input
-                placeholder="Ingrese su contraseña"
                 className="form-control"
                 type="password"
                 name="clave"
@@ -70,8 +70,8 @@ const Registro = () => {
             </div>
 
             <div className="col-md-3">
+              <p id="titles">Ingrese su edad</p>
               <input
-                placeholder="Ingrese su edad"
                 className="form-control"
                 type="text"
                 name="edad"

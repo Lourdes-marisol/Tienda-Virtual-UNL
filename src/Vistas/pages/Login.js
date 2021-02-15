@@ -24,7 +24,7 @@ const Login = () => {
 
   return (
     <body>
-      <Navbar/>
+      <Navbar />
       <div>
         <Fragment>
           <h1>Ingresar</h1>
