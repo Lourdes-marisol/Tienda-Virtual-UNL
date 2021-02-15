@@ -16,14 +16,16 @@ import InicioSesion from "../src/Vistas/pages/iniciarSesion";
 import Productos from "../src/Vistas/pages/producto";
 import Carrito from "../src/Vistas/pages/carrito";
 import Modificar from "../src/Vistas/pages/ModificarDatos";
-import GestionarProductos from "../src/Vistas/pages/GestionarProductos";
-import AgregarProducto from "../src/Vistas/pages/AgregarProducto";
+import Baja from "../src/Vistas/pages/darBajaCuenta";
+import Seguimiento from "../src/Vistas/pages/darBajaCuenta";
+import Historial from "../src/Vistas/pages/historial";
+import ModificarCliente from "../src/Vistas/pages/modificarDatosCliente";
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/Home" exact component={Home} />
+        <Route path="/home" exact component={Home} />
         <Route path="/hombres" exact component={Hombres} />
         <Route path="/mujeres" exact component={Mujeres} />
         <Route path="/novedades" exact component={Novedades} />
@@ -37,10 +39,12 @@ function App() {
         <Route path="/producto" exact component={Productos} />
         <Route path="/carrito" exact component={Carrito} />
         <Route path="/ModificarDatos" exact component={Modificar} />
-        <Route path="/GestionarProductos" exact component={GestionarProductos} />
-        <Route path="/AgregarProducto" exact component={AgregarProducto} />
-
+        <Route path="/darBajaCuenta" exact component={Baja} />
+        <Route path="/historial" exact component={Historial} />
+        <Route path="/seguimiento" exact component={Seguimiento} />
+        <Route path="/modificarDatosCliente" exact component={ModificarCliente} />
       </Switch>
+      
     </Router>
   );
 }

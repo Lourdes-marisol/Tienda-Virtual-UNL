@@ -1,0 +1,112 @@
+.cajaPreguntas{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 500px;
+    bottom: 25%;
+}
+.titulos{
+    padding: 1%;
+    position: relative;
+    width: 800px;
+    left: 26%;
+    bottom: 88.4%;
+    height: 410px;
+    border: 2px solid rgb(100, 97, 97);
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.textGris{
+    color: gray;
+}
+.seccionPreguntas{
+    position: relative;
+    width: 700px;
+    height: 142px;
+    left: 27%;
+    bottom: 160%;
+    letter-spacing: 1px;
+    line-height: 290%;
+    border: 1px solid rgba(5, 5, 5, 0.933);
+
+}
+.dC{
+    border: 1px solid rgba(5, 5, 5, 0.933);
+}
+.dC:hover{
+    background-color: rgb(168, 160, 160);
+    cursor: pointer;
+}
+
+.nI{
+    border: 1px solid rgba(5, 5, 5, 0.933);
+}
+.nI:hover{
+    background-color: rgb(168, 160, 160);
+    cursor: pointer;
+}
+.oM{
+    border: 1px solid rgba(5, 5, 5, 0.933);
+}
+.oM:hover{
+    background-color: rgb(168, 160, 160);
+    cursor: pointer;
+}
+.cajaClave{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    bottom: 150%;
+    left: 45%;
+    width: 400px;
+    height: 50px;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+.txtClaveElimina{
+    position: relative;
+    left: 39%;
+    bottom: 60%;
+    width: 310px;
+    height: 30px;
+}
+.seccionBotones{
+    position: relative;
+    bottom: 152%;
+    left: 56%;
+    background-color: rgb(241, 241, 241);
+    width: 400px;
+    height: 50px;
+}
+
+.volverTienda{
+    position: relative;
+    background-color: rgb(13, 128, 156);
+    color: white;
+    height: 40px;
+    border-radius: 10%;
+    top: 58%;
+
+}
+.volverTienda:hover{
+    background-color: rgb(25, 60, 124);
+    color: white;
+    cursor: pointer;
+}
+
+.desactivarCuenta{
+    position: relative;
+    background-color: rgb(13, 128, 156);
+    color: white;
+    height: 40px;
+    border-radius: 10%;
+    top: 58%;
+    left: 25%;
+
+}
+.desactivarCuenta:hover{
+    background-color: rgb(146, 13, 4);
+    color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+

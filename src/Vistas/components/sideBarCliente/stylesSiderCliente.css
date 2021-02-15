@@ -1,0 +1,98 @@
+.contenedorCuenta{
+    position: relative;
+    width: 300px;
+    height: 440px;
+    border: 2px solid rgba(0, 0, 0, 0.667) ;
+    left: 2%;
+}
+
+.cuentaI{
+    position: relative;
+    left: 30%;
+}
+
+.slideBarCuenta{
+    position: relative;
+    width: 300px;
+    height: 270px;
+    top: 5%;
+}
+
+.editarLogo{
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+
+.enviarLogo{
+    position: relative;
+    top: 34%;
+    left: -3%;
+}
+
+.historialLogo{
+    position: relative;
+    top: 56%;
+    left: -16%;
+}
+
+
+.borrarLogo{
+    position: relative;
+    left: -28%;
+    top: 78%;
+}
+
+.menu{
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 120px;
+    left: 25%;
+    bottom: 8%;
+}
+
+.m{
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    height: 40px;
+    cursor: pointer;
+
+}
+.m:hover{
+    background-color: gray;
+    color: white;
+}
+.s{
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    height: 40px;
+    top: 18%;
+    cursor: pointer;
+}
+.s:hover{
+    background-color: gray;
+    color: white;
+}
+.h{
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    height: 40px;
+    top:37%;
+    cursor: pointer;
+}
+.h:hover{
+    background-color: gray;
+    color: white;
+}
+.d{
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    height: 40px;
+    top:52%;
+    cursor: pointer;
+}
+.d:hover{
+    background-color: gray;
+    color: white;
+}

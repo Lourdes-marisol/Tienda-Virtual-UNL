@@ -1,5 +1,4 @@
 .container{
-    background-color: rgb(255, 255, 255);
     width: auto;
     height: 600px;
 }
@@ -8,7 +7,6 @@
     position: relative;
     top: 5%;
     left: 2%;
-    background-color: rgb(243, 247, 238);
     width: 450px;
     height: 500px;
     border:2px solid rgb(36, 34, 34);
@@ -16,34 +14,34 @@
 
 .Detalles{
     position: relative;
-    background-color: rgb(236, 234, 234);
-    left: 38%;
-    bottom: 80%;
+    left:5%;
+    top: 25%;
     width: 800px;
-    height: 300px;
+    height: 100px;
 }
 .calificar{
     position: relative;
-    bottom: 5%;
+    top: 25%;
 }
 .precio{
     position: relative;
-    bottom: 8%;
+    display: inline-block;
+    top: 10%;
+    
 }
 .codigoP{
+    display: inline-block;
     position: relative;
-    bottom: 4%;
+    bottom: 13%;
 }
 
 .conDescripcion{
     position: relative;
-    background-color: rgb(255, 255, 255);
-    bottom: 10%;
+    top: 65%;
     width: auto;
     height: 200px;
 }
 .descripcion{
-    background-color: rgb(255, 255, 255);
     position: relative;
     font-family: monospace;
     font-size: 15px;
@@ -53,47 +51,47 @@
     display: inline;
     position: relative;
     left: 12px;
-    bottom: 34px;
+    top: 15px;
 }
 
 .tColor{
     position: relative;
     left: 5%;
-    bottom: 6%;
+    bottom:-3%
 }
 .boxTalla{
     display: inline;
     position: relative;
     left: 16%;
-    bottom: 121px;
+    bottom: 20px;
 }
 .tTalla{
     position: relative;
     left: 20%;
-    bottom: 50%;
+    top: -14%;
 }
 .boxCantidad{
     display: inline;
     position: relative;
     left: 30%;
-    bottom: 104%;
+    bottom: 27%;
 }
 
 .tCantidad{
     position: relative;
     left: 32%;
-    bottom: 93%;
+    top: -31%;
 }
 
 .comentario{
-    bottom: 25%;
+    top: 24%;
     display: inline;
     position: relative;
     left: 35%;
 }
 .btnCarrito{
-    bottom: 28%;
-    left: 2%;
+    top: 13%;
+    left: 10%;
     cursor: pointer;
     border-radius: 2%;
     border: 2px solid rgb(5, 5, 5); 
@@ -103,7 +101,7 @@
     color: rgb(0, 0, 0); 
 }
 .btnCarrito:hover{
-    background-color: rgb(190, 181, 181);
+    background-color: rgb(21, 156, 39);
     color: rgb(0, 0, 0);
 }
 .enviar{

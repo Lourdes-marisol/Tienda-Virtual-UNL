@@ -1,0 +1,81 @@
+.contenedorEditar{
+    position: relative;
+    background-color: rgb(227, 235, 227);
+    width: auto;
+    height: 450px;
+    bottom: 25%;
+}
+.formEditar{
+    position: relative;
+    width: 600px;
+    height: 440px;
+    bottom:98.7%;
+    left: 30%;
+}
+.indicaciones{
+    position: relative;
+    line-height: 310%;
+    top: 10%;
+    left: 1%;
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.entradasEditables{
+    position: relative;
+    width: 240px;
+    bottom: 56.9%;
+    line-height: 310%;
+    left: 35%;
+    height: 294px;
+
+}
+
+.cajaNombre{
+    height: 30px;
+}
+.cajaApellidos{
+    height: 30px;
+
+}
+
+.cajaCorreo{
+    height: 30px;
+
+}
+.cajaTelefono{
+    height: 30px;
+
+}
+.cajaEdad{
+    height: 30px;
+
+}
+
+.cajaContrasenia{
+    height: 30px;
+
+}
+.cajaBoton{
+    display: inline;
+    position: relative;
+    bottom: 50%;
+    left: 20%;
+
+
+}
+.botonConfirmar{
+    background-color: rgb(75, 171, 216);
+    border: 1px solid rgb(194, 191, 191);
+    color: white;
+    border-radius: 17%;
+    height: 45px;
+    width: 150px;
+}
+.botonConfirmar:hover{
+    background-color: rgb(179, 63, 42);
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    
+}
+
