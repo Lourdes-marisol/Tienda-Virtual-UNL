@@ -25,7 +25,18 @@ const Home = () => {
           </div>
           <div className="content_der">
             <div class="box_derecha">
-              <h2 id="titulo_producto">Nueva Camiseta</h2>
+              <h2 id="titulo_producto">Nuevo Bralette 2021</h2>
+              <p>
+                Deja que la elegancia hable por ti, con la nueva colección de
+                camisas MAO 2020, un diseño formidable, elegante y cómodo.
+                Elaborada en 100% fibras de algodón, lo que te garantiza una
+                mejor calidad y resitencia de los materiales.
+              </p>
+              <p>
+                Disfruta de este modelo Slim Fit, que te permite vestirte en lo
+                último en cuanto a moda se refiere.
+              </p>
+              <p id="p1">Colores disponibles</p>
             </div>
           </div>
         </div>
