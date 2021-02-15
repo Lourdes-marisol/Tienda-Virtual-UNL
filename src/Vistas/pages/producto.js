@@ -1,9 +1,11 @@
 import React from 'react';
 import Footer from '../components/footer'
 import '../css/stylesProducto.css';
+import Navbar from "../components/Navbar";
 const Productos = () => {
     return (
         <body>
+            <Navbar/>
             <div>
                 <div className="container">
                     <div className="Producto">
@@ -15,9 +17,7 @@ const Productos = () => {
                         <div className="conDescripcion">
                             <h5 className="codigoP"> Codigo producto</h5>
                             <p className="descripcion">
-                                Lorean is up u asi nomas todo lo que digo es cierto amigo
-                                lampara todo lo que pasa aqui en casa me como mrd ajsjajs
-                                y asi nomás verás , tranqui ya lo hago yo , tu no puedes.
+                                Descripcion del producto
                 </p>
                             <h6 className="tColor">Color:</h6>
                             <select className="boxColor">

@@ -29,9 +29,7 @@ const darBajaCuenta = () => {
             </div>
             </div>
                 </div>
-            <div>
-
-            </div>
+            
             <Footer>
                 <Footer.Wrapper>
                     <Footer.Row>
