@@ -1,12 +1,19 @@
-const router = require("express").Router();
+const express = require('express');
+const router = express.Router();
 const { check, validationResult } = require("express-validator");
 const bcrypt = require("bcrypt");
-const { Cliente } = require("../../src/Controlador/db");
 
-router.get("/", async (req, res) => {
-  const clientes = await Cliente.findAll();
-  res.json(clientes);
+const clientes = require('./../../src/models/clientes');
+
+router.get('/',(req, res) => {
+  clientes.findAll().then(clientes => {
+		res.json(clientes);})
+
+		
+  
 });
+
+
 
 router.get("/:clienteId", async (req, res) => {
   const clientes = await Cliente.findAll();
@@ -16,12 +23,11 @@ router.get("/:clienteId", async (req, res) => {
 router.post(
   "/",
   [
-    check("nombreC", "Se debe llenar este campo").not().isEmpty(),
-    check("correoElectronicoC", "Se debe llenar este campo").not().isEmpty(),
-    check("telefonoC", "Se debe llenar este campo").not().isEmpty(),
-    check("claveC", "Se debe llenar este campo").not().isEmpty(),
-    check("claveConfirmada", "Se debe llenar este campo").not().isEmpty(),
-    check("edadC", "Se debe llenar este campo").not().isEmpty(),
+    check("nombres", "Se debe llenar este campo").not().isEmpty(),
+    check("correo", "Se debe llenar este campo").not().isEmpty(),
+    check("telefono", "Se debe llenar este campo").not().isEmpty(),
+    check("clave", "Se debe llenar este campo").not().isEmpty(),
+    check("edad", "Se debe llenar este campo").not().isEmpty(),
   ],
   async (req, res) => {
     const errors = validationResult(req);
@@ -29,10 +35,22 @@ router.post(
     if (!errors.isEmpty()) {
       return res.status(422).json({ errores: errors.array() });
     }
-    req.body.claveC = bcrypt.hashSync(req.body.claveC, 5);
-    req.body.claveConfirmada = bcrypt.hashSync(req.body.claveConfirmada, 5);
-    const clientes = await Cliente.create(req.body);
-    res.json(clientes);
+    req.body.clave = bcrypt.hashSync(req.body.clave, 5);
+    
+   
+
+    clientes.create({
+		
+
+        nombres: req.body.nombres,
+    correo: req.body.correo,
+    telefono: req.body.telefono,
+    clave: req.body.clave,
+    edad: req.body.edad
+	}).then(clientes => {
+		res.json(clientes)
+	})
+    
   }
 );
 

@@ -21,6 +21,7 @@ import Baja from "../src/Vistas/pages/darBajaCuenta";
 import Seguimiento from "../src/Vistas/pages/darBajaCuenta";
 import Historial from "../src/Vistas/pages/historial";
 import ModificarCliente from "../src/Vistas/pages/modificarDatosCliente";
+import AgregarProducto from "../src/Vistas/pages/AgregarProducto";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
         <Route path="/seguimiento" exact component={Seguimiento} />
         <Route path="/modificarDatosCliente" exact component={ModificarCliente} />
         <Route path="/GestionarProductos" exact component={GestionarProductos} />
+        <Route path="/AgregarProducto" exact component={AgregarProducto} />
 
       </Switch>
       

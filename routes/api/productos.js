@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const { check, validationResult} = require('express-validator');
-const {Producto} = require('../../src/Controlador/db');
+const {Producto} = require('../../src/Controlador/BD/db');
+const productos = require('./../../src/models/producto');
 
 //Mostrar productos generales
 router.get('/', async (req, res)=>{

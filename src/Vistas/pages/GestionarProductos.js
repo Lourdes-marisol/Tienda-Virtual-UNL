@@ -22,7 +22,9 @@ const [sidebarOpen, setsidebarOpen] = useState(false);
       <h4> Gestionar Productos </h4>
       
       </div>
+      <div className="bus">
       <input type="text" placeholder = "Buscar"/>
+      </div>
       <div className="des">
       
       <button className = "button" onclick="myFunction()">Descuentos</button>

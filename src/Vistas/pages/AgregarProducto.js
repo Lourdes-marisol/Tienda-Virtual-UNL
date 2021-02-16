@@ -6,6 +6,7 @@ import Navbar from "./../components/navbarAdmin/Navbar";
 import Sidebar from "./../components/sidebarAdmin/Sidebar";
 import "./../css/Admin.css";
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import "./../css/AgregarProducto.css";
 
 const ModificarDatos = () => {
 const [sidebarOpen, setsidebarOpen] = useState(false);
@@ -27,13 +28,14 @@ const [sidebarOpen, setsidebarOpen] = useState(false);
       </div>
       <div className="input">
       <input  placeholder = "Nombre"/> 
+      
+      </div>
       <Input type="select" placeholder="Talla">
           <option>Categoria</option>
           <option>X</option>
           <option>M</option>
          
         </Input>
-      </div>
       <div className="input">
       <input  placeholder = "Precio"/> 
       </div>
@@ -42,12 +44,17 @@ const [sidebarOpen, setsidebarOpen] = useState(false);
       </div>
       <div className="input">
          <Input type="select" placeholder="Talla">
-          <option>XL</option>
+          <option>Talla</option>
           <option>X</option>
           <option>M</option>
          
         </Input>
+        
+
+        
+        <input className="des" placeholder = "Descripción"/> 
         </div>
+       
       </div>
      <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
     </div>

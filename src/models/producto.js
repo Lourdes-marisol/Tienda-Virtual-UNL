@@ -1,17 +1,24 @@
 
-module.exports= (sequelize,type)=>{
-    return sequelize.define('producto',{
-        id:{
-            type: type.INTEGER,
-            primaryKey: true,
-            autoIncrement: true
-        },
-        nombreP: type.STRING,
-        categoriaP: type.STRING,
-        tallaP: type.INTEGER,
-        estadoP: type.STRING,
-        imagenP: type.STRING,
-        precioP: type.DOUBLE,
-        descripcionP: type.STRING
-    })
-}
+
+const { Model, DataTypes }= require('sequelize');
+const sequelize = require('./../Controlador/BD/db');
+
+class producto extends Model{}
+	producto.init({
+		  
+         
+        nombreP: DataTypes.STRING,
+        categoriaP: DataTypes.STRING,
+        tallaP: DataTypes.INTEGER,
+        estadoP: DataTypes.STRING,
+        imagenP: DataTypes.STRING,
+        precioP: DataTypes.DOUBLE,
+        descripcionP: DataTypes.STRING},
+        {
+        sequelize,
+        modelName: "producto"
+        }
+        
+        )
+        module.exports = producto;
+ 
