@@ -5,8 +5,8 @@ import image_2 from "../images/u201.jpg";
 import Footer from "../components/footer";
 import color_1 from "../images/imgCatalogo/bralette_rojo.jpg";
 import color_2 from "../images/imgCatalogo/bralette_rosado.jpg";
-
 import Navbar from "../components/Navbar";
+import Carrusel from "../components/carrusel/carrusel";
 const Home = () => {
   return (
     <body>
@@ -55,8 +55,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-
       <div>
+        <Carrusel/>
         <Footer>
           <Footer.Wrapper>
             <Footer.Row>

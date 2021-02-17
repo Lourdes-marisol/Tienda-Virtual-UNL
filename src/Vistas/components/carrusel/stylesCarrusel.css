@@ -1,0 +1,56 @@
+
+.contenedorCarrusel{
+    border: 2px solid gray;
+    position: relative;
+    width: auto;
+    height: 300px;
+}
+.cp1{
+    border-radius: 5%;
+    position: relative;
+    left: 10%;
+    border: 2px solid gray;
+
+}
+.cp2{
+    border-radius: 5%;
+    position: relative;
+    left: 14%;
+    border: 2px solid gray;
+
+}
+.cp3{
+    border-radius: 5%;
+    position: relative;
+    left: 18%;
+    border: 2px solid gray;
+
+}
+.cp4{
+    border-radius: 5%;
+    position: relative;
+    left: 22%;
+    border: 2px solid gray;
+
+}
+.anterior{
+    position: relative;
+    transform: rotate(-180deg);
+    left: 8%;
+
+}
+.anterior:hover{
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(202, 193, 193);
+}
+.adelante{
+    position: relative;
+    left: 23%;
+
+}
+.adelante:hover{
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(202, 193, 193);
+}
