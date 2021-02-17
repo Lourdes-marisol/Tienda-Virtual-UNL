@@ -2,8 +2,6 @@ import React from "react";
 import "./../css/stylesHome.css";
 import background_home from "../images/u0.jpg";
 import image_2 from "../images/u201.jpg";
-//import image_1 from "../images/u31.svg";
-//import { Button } from "react-bootstrap";
 import Footer from "../components/footer";
 
 import Navbar from "../components/Navbar";

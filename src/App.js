@@ -29,6 +29,7 @@ function App() {
   return (
     <Router>
       <Switch>
+      <Route path="/" exact component={Home} />
         <Route path="/home" exact component={Home} />
         <Route path="/hombres" exact component={Hombres} />
         <Route path="/mujeres" exact component={Mujeres} />
