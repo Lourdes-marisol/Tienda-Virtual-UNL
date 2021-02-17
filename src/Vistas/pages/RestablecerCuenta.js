@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 import { useState } from "react";
-import "./../css/ModificarDatos.css";
+import "./../css/RestablecerCuenta.css";
 import "./../components/mainAdmin/Main.css";
 import Navbar from "./../components/navbarAdmin/Navbar";
 import Sidebar from "./../components/sidebarAdmin/Sidebar";
@@ -22,20 +22,16 @@ const [sidebarOpen, setsidebarOpen] = useState(false);
       <div className="main__container">      
       
       <div className = "h1">
-      <h4> Modificar datos de la cuenta </h4>
+      <h4> Restablecer cuenta </h4>
       </div>
+      <div className="red">
       
-      <h3> Contraseña </h3>
-      <div className = "input1">
-      <input type="password" placeholder = "Ingrese su contraseña actual"/> 
+      <h3> Advertencia: </h3>
       </div>
-      <div className = "input1">
-       <input type="password" placeholder = "Ingrese su contraseña nueva"/> 
-       </div>
-       <div className = "input1">
-        <input type="password" placeholder = "Ingrese su contraseña nueva otra vez"/> 
-        </div>
-        <button className = "button1" onclick="myFunction()">Cambiar contraseña</button>
+      <div className="Te">
+      <h4> Si restableces tu cuenta, los datos volverán a ser como en un inicio. </h4>
+      </div>
+        <button className = "button4" type="outline" onclick="myFunction()">Restablecer cuenta</button>
          
       </div>
      <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />

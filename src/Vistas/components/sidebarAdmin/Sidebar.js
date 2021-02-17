@@ -26,25 +26,25 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       <div className="sidebar__menu">
         <div className="sidebar__link">
           <i className="fa fa-home" ></i>
-          <a href="#">Inicio</a>
+          <a href="/home">Inicio</a>
         </div>
         
         <div className="sidebar__link active_menu_link">
        
           <i className="fa fa-pencil-square-o" aria-hidden="true"></i>
-          <a href="#">Modificar datos</a>
+          <a href="/ModificarDatos">Modificar datos</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-cogs" aria-hidden="true"></i>
-          <a href="#" >Gestionar productos</a>
+          <a href="/GestionarProductos" >Gestionar productos</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-bar-chart" aria-hidden="true"></i>
-          <a href="#">Reporte de ventas</a>
+          <a href="/ReportesVentas">Reporte de ventas</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-exclamation-triangle" aria-hidden="true"></i>
-          <a href="#">Restablecer cuenta</a>
+          <a href="/RestablecerCuenta">Restablecer cuenta</a>
         </div>
         
         <div className="sidebar__logout">

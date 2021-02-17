@@ -1,0 +1,25 @@
+.pre{
+
+	display: flex;
+	align-items: center;
+	margin-bottom:2%;
+}
+
+.buttondes {
+ 
+  border-radius: 7px;
+  background-color: #169BD5;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.ttext{
+ margin-bottom:3%;
+}

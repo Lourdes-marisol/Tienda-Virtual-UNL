@@ -1,5 +1,5 @@
 ﻿import { useState } from "react";
-import "./../css/GestionarProductos.css";
+import "./../css/ReportesVentas.css";
 import "./../components/mainAdmin/Main.css";
 import Navbar from "./../components/navbarAdmin/Navbar";
 import Sidebar from "./../components/sidebarAdmin/Sidebar";
@@ -19,29 +19,34 @@ const [sidebarOpen, setsidebarOpen] = useState(false);
       <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
       <div className="main__container">
       <div className="h1">
-      <h4> Gestionar Productos </h4>
+      <h4> ReportesVentas </h4>
+      
+      </div>
+      <div className="fecha">
+      <h5>Fecha inicio:</h5>
+      <input type="text" placeholder = "dd/mm/aa"/>
+      
+      </div>
+       <div className="fecha">
+       <h5>Fecha final:</h5>
+      <input type="text" placeholder = "dd/mm/aa"/>
       
       </div>
       <div className="bus">
       <input type="text" placeholder = "Buscar"/>
       </div>
-      <div className="des">
       
-      <button className = "button2" onclick="myFunction()">Descuentos</button>
-      <button className = "button2" onclick="myFunction()">Agregar producto</button>
-      </div>
+      
      <Table responsive bordered bordered hover >
   
     
-      <th>ID</th>
-      <th>Nombre</th>
-      <th>Categoria</th>
-      <th>Stock</th>
+      <th>Fecha</th>
+      <th>N. de venta</th>
+      <th>Cliente</th>
       <th>Precio</th>
-      <th>Estado</th>
-      <th>Descuento</th>
-      <th>..</th>
-      <th>..</th>
+      <th>Cantidad</th>
+      <th>Total</th>
+      
     
   
   <tbody>
@@ -50,9 +55,7 @@ const [sidebarOpen, setsidebarOpen] = useState(false);
       {Array.from({ length: 6 }).map((_, index) => (
         <td key={index}>...</td>
       ))}
-      <button className = "button2" onclick="myFunction()">""</button>
-      <button className = "button2" onclick="myFunction()">Editar</button>
-      <button className = "button2" onclick="myFunction()">Eliminar</button>
+      
 
     </tr>
     <tr>
@@ -61,9 +64,7 @@ const [sidebarOpen, setsidebarOpen] = useState(false);
       {Array.from({ length: 6 }).map((_, index) => (
         <td key={index}>...</td>
       ))}
-      <button className = "button2" onclick="myFunction()">""</button>
-      <button className = "button2" onclick="myFunction()">Editar</button>
-      <button className = "button2" onclick="myFunction()">Eliminar</button>
+      
       
     </tr>
     <tr>
@@ -71,13 +72,10 @@ const [sidebarOpen, setsidebarOpen] = useState(false);
       {Array.from({ length: 6 }).map((_, index) => (
         <td key={index}>...</td>
       ))}
-      <button className = "button2" onclick="myFunction()">""</button>
-      <button className = "button2" onclick="myFunction()">Editar</button>
-      <button className = "button2" onclick="myFunction()">Eliminar</button>
+     
     </tr>
   </tbody>
 </Table>
-
       </div>
      <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
     </div>

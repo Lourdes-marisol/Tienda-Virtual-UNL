@@ -22,6 +22,10 @@ import Seguimiento from "../src/Vistas/pages/darBajaCuenta";
 import Historial from "../src/Vistas/pages/historial";
 import ModificarCliente from "../src/Vistas/pages/modificarDatosCliente";
 import AgregarProducto from "../src/Vistas/pages/AgregarProducto";
+import ModificarProducto from "../src/Vistas/pages/ModificarProducto";
+import RestablecerCuenta from "../src/Vistas/pages/RestablecerCuenta";
+import ReportesVentas from "../src/Vistas/pages/ReportesVentas";
+import Descuento from "../src/Vistas/pages/Descuento";
 
 function App() {
   return (
@@ -47,7 +51,10 @@ function App() {
         <Route path="/modificarDatosCliente" exact component={ModificarCliente} />
         <Route path="/GestionarProductos" exact component={GestionarProductos} />
         <Route path="/AgregarProducto" exact component={AgregarProducto} />
-
+        <Route path="/ModificarProducto" exact component={ModificarProducto} />
+        <Route path="/RestablecerCuenta" exact component={RestablecerCuenta} />
+        <Route path="/ReportesVentas" exact component={ReportesVentas} />
+        <Route path="/Descuento" exact component={Descuento} />
       </Switch>
       
     </Router>
