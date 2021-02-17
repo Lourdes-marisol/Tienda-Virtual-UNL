@@ -3,15 +3,15 @@ import "./../css/stylesHome.css";
 import background_home from "../images/u0.jpg";
 import image_2 from "../images/u201.jpg";
 import Footer from "../components/footer";
+import color_1 from "../images/imgCatalogo/bralette_rojo.jpg";
+import color_2 from "../images/imgCatalogo/bralette_rosado.jpg";
 
 import Navbar from "../components/Navbar";
 const Home = () => {
   return (
     <body>
       <div className="titulo">
-      componentWillmount(){
-      document.title="Inicio | FDEL"
-  }
+        componentWillmount(){(document.title = "Inicio | FDEL")}
       </div>
       <Navbar />
       {/* CONTENEDOR DEL PROFUCTO DESTACADO VISTA PRINCIPAL */}
@@ -40,6 +40,17 @@ const Home = () => {
                 último en cuanto a moda se refiere.
               </p>
               <p id="p1">Colores disponibles</p>
+
+              {/* COLOR PRODUCTO 1 */}
+              <div className="cont_color1">
+                <img src={color_1} alt="" />
+              </div>
+              {/* COLOR PRODUCTO 2 */}
+              <div className="cont_color2">
+                <img src={color_2} alt="" />
+              </div>
+              <h4 class="precio_texto">Precio de OFERTA</h4>
+              <p className="precio_producto">$ 14,99</p>
             </div>
           </div>
         </div>
