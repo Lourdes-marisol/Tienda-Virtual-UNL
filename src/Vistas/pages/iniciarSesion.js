@@ -9,6 +9,11 @@ import "./../css/stylesSesion.css";
 const InicioSesion = () => {
   return (
     <body>
+      <div className="titulo">
+        componentWillmount(){
+          document.title = "Iniciar Sesion | FDEL"
+        }
+      </div>
       <Navbar />
       <div className="contenedor">
         <h3 className="text"> Ingresar</h3>

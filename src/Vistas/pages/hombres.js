@@ -5,6 +5,12 @@ import Navbar from "../components/Navbar";
 const Hombres = () => {
     return (
         <body>
+            <div className="titulo">
+                componentWillmount(){
+                    document.title = "Hombres | FDEL"
+                }
+            </div>
+
             <Navbar />
             <div>
                 <div className="animacion">HOMBRES</div>

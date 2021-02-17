@@ -10,6 +10,11 @@ import Navbar from "../components/Navbar";
 const Home = () => {
   return (
     <body>
+      <div className="titulo">
+      componentWillmount(){
+      document.title="Inicio | FDEL"
+  }
+      </div>
       <Navbar />
       {/* CONTENEDOR DEL PROFUCTO DESTACADO VISTA PRINCIPAL */}
       <div className="background">

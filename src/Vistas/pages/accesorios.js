@@ -3,11 +3,16 @@ import Footer from '../components/footer';
 import '../css/stylesSecciones.css';
 import Navbar from "../components/Navbar";
 const Accesorios = () => {
-  return (
-    <body>
-        <Navbar/>
+    return (
+        <body>
+            <Navbar />
             <div>
-            <div className="animacion">Acesorios</div>
+                <div className="titulo">
+                    componentWillmount(){
+                        document.title = "Accesorios | FDEL"
+                    }
+                </div>
+                <div className="animacion">ACCESORIOS</div>
                 <div className="contenedorHombre">
                     <div className="productoId1">
                         <div className="detallesProducto1">
@@ -85,7 +90,7 @@ const Accesorios = () => {
                 </Footer.Wrapper>
             </Footer>
         </body>
-  );
+    );
 };
 
 export default Accesorios;

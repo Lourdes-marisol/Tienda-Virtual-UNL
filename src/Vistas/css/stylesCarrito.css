@@ -60,7 +60,7 @@
 
 .boxCantidadC{
     position: relative;
-    bottom: 45%;
+    bottom: -40%;
     right: 42%;
 }
 .textCantidad{
@@ -75,15 +75,15 @@
 .eliminar{
     display: inline;
     position: relative;
-    left: 40%;
-    bottom: 45%;
+    left: 35%;
+    bottom: -40%;
 }
 
 .guardar{
     display: inline;
     position: relative;
-    left: 50%;
-    bottom: 45%;
+    left: 42%;
+    bottom: -40%;
 
 }
 .detalles2{

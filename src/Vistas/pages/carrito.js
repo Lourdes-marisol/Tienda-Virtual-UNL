@@ -6,7 +6,12 @@ import Navbar from "../components/Navbar";
 const Carrito = () => {
     return (
         <body>
-            <Navbar/>
+            <div className="titulo">
+                componentWillmount(){
+                    document.title = "Carrito | FDEL"
+                }
+            </div>
+            <Navbar />
             <div>
                 <div className="contenedorC">
                     <div className="productosC">
@@ -28,7 +33,7 @@ const Carrito = () => {
                                 <h5>Precio</h5>
                                 <h5> $ 200.0</h5>
                             </div>
-                            
+
                             <div className="eliminar">
                                 <a href={Alert}>Eliminar</a>
                             </div>

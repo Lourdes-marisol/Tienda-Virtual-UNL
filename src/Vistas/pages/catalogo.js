@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../components/footer';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../css/stylesCatalogo.css';
 import Navbar from "../components/Navbar";
 import CatalogoHombre from '../images/imgCatalogo/catalogoHombres.jpg';
@@ -9,7 +9,12 @@ import CatalogoMujer from '../images/imgCatalogo/catalogoMujeres.jpg';
 const Catalogo = () => {
     return (
         <body>
-            <Navbar/>
+            <div className="titulo">
+                componentWillmount(){
+                    document.title = "Catalogo | FDEL"
+                }            </div>
+
+            <Navbar />
             <div>
                 <div className="contenedorCatalogo">
                     <div className="conHombres">
@@ -17,8 +22,8 @@ const Catalogo = () => {
                         <Link className="textHombres" to="/hombres">HOMBRES</Link>
                     </div>
                     <div className="conMujeres">
-                    <img src={CatalogoMujer} alt=""></img>
-                    <Link className="textMujeres" to="/mujeres">MUJERES</Link>
+                        <img src={CatalogoMujer} alt=""></img>
+                        <Link className="textMujeres" to="/mujeres">MUJERES</Link>
                     </div>
                 </div>
             </div>

@@ -2,12 +2,17 @@ import React from 'react';
 import Footer from '../components/footer';
 import Navbar from "../components/Navbar";
 import SideCliente from "../components/sideBarCliente/sideBarCliente";
-const historial =()=>{
+const historial = () => {
     return (
         <body>
-            <Navbar/>
+            <div className="titulo">
+                componentWillmount(){
+                    document.title = "Historial | FDEL"
+                }</div>
+
+            <Navbar />
             <div>
-                <SideCliente/>
+                <SideCliente />
             </div>
             <Footer>
                 <Footer.Wrapper>

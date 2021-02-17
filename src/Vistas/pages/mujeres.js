@@ -6,8 +6,13 @@ const Mujeres = () => {
     return (
         <body>
             <Navbar />
+            <div className="titulo">
+                componentWillmount(){
+                    document.title = "Mujeres | FDEL"
+                }
+            </div>
             <div>
-                <div className="animacion">Mujeres</div>
+                <div className="animacion">MUJERES</div>
                 <div className="contenedorHombre">
                     <div className="productoId1">
                         <div className="detallesProducto1">

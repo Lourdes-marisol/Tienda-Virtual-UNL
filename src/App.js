@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "../src/Vistas/pages/home";
@@ -11,7 +10,6 @@ import Catalogo from "../src/Vistas/pages/catalogo";
 import Accesorios from "../src/Vistas/pages/accesorios";
 import Micuenta from "../src/Vistas/pages/micuenta";
 import Registro from "../src/Vistas/pages/Registro";
-import Login from "../src/Vistas/pages/Login";
 import InicioSesion from "../src/Vistas/pages/iniciarSesion";
 import Productos from "../src/Vistas/pages/producto";
 import Carrito from "../src/Vistas/pages/carrito";
@@ -39,7 +37,6 @@ function App() {
         <Route path="/catalogo" exact component={Catalogo} />
         <Route path="/accesorios" exact component={Accesorios} />
         <Route path="/micuenta" exact component={Micuenta} />
-        <Route path="/Login" exact component={Login} />
         <Route path="/Registro" exact component={Registro} />
         <Route path="/iniciarSesion" exact component={InicioSesion} />
         <Route path="/producto" exact component={Productos} />

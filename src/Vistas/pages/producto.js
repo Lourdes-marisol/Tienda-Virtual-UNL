@@ -5,7 +5,14 @@ import Navbar from "../components/Navbar";
 const Productos = () => {
     return (
         <body>
-            <Navbar/>
+            <div className="titulo">
+                componentWillmount(){
+                    document.title = "Producto | FDEL"
+                }
+            </div>
+
+
+            <Navbar />
             <div>
                 <div className="container">
                     <div className="Producto">

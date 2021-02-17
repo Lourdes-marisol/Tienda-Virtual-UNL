@@ -28,6 +28,13 @@ const Registro = () => {
   return (
     <body>
       <Navbar />
+      <div className="titulo">
+        componentWillmount(){
+          document.title = "Registrarse | FDEL"
+        }
+      </div>
+
+
       <div className="contenedor_registro">
         <Fragment>
           <h1 id="titulo_formulario">Formulario</h1>

@@ -1,0 +1,37 @@
+.contN{
+    position: relative;
+    width: auto;
+    height: 700px;
+}
+
+.novedad1{
+    background-image: url('../images//imgNovedades/ofertas.jpg');
+    position: relative;
+    left: 13%;
+    width: 980px;
+    height: 605px;
+    object-fit: contain;
+}
+
+.atras{
+    cursor: pointer;
+    position: relative;
+    top: 58%;
+    left: 2%;
+    transform: rotate(-180deg);
+}
+.atras:hover{
+    background-color: rgb(236, 220, 220);
+    border-radius: 50%;
+}
+
+.siguiente{
+    cursor: pointer;
+    position: relative;
+    left: 90%;
+    bottom: 40%;
+}
+.siguiente:hover{
+    background-color: rgb(236, 220, 220);
+    border-radius: 50%;
+}

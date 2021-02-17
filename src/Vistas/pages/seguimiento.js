@@ -2,12 +2,19 @@ import React from 'react';
 import Footer from '../components/footer';
 import Navbar from "../components/Navbar";
 import SideCliente from "../components/sideBarCliente/sideBarCliente";
-const seguimiento = () =>{
+const seguimiento = () => {
     return (
         <body>
-            <Navbar/>
+            <div className="titulo">
+                componentWillmount(){
+                    document.title = "Seguimiento | FDEL"
+                }
+            </div>
+
+
+            <Navbar />
             <div>
-                <SideCliente/>
+                <SideCliente />
             </div>
             <Footer>
                 <Footer.Wrapper>
@@ -38,4 +45,4 @@ const seguimiento = () =>{
         </body>
     );
 };
- export default seguimiento;
+export default seguimiento;

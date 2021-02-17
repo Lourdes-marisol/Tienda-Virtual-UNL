@@ -6,10 +6,11 @@
 }
 
 .title{
-    margin-left: 5%;
+    position: relative;
+    left: 50%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-    color: rgb(8, 8, 8);
+    color: rgb(0, 0, 0);
 }
 
 .carroC{
