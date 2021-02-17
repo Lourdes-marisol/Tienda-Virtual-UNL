@@ -11,7 +11,6 @@ import Catalogo from "../src/Vistas/pages/catalogo";
 import Accesorios from "../src/Vistas/pages/accesorios";
 import Micuenta from "../src/Vistas/pages/micuenta";
 import Registro from "../src/Vistas/pages/Registro";
-import Login from "../src/Vistas/pages/Login";
 import InicioSesion from "../src/Vistas/pages/iniciarSesion";
 import Productos from "../src/Vistas/pages/producto";
 import Carrito from "../src/Vistas/pages/carrito";
@@ -35,7 +34,6 @@ function App() {
         <Route path="/catalogo" exact component={Catalogo} />
         <Route path="/accesorios" exact component={Accesorios} />
         <Route path="/micuenta" exact component={Micuenta} />
-        <Route path="/Login" exact component={Login} />
         <Route path="/Registro" exact component={Registro} />
         <Route path="/iniciarSesion" exact component={InicioSesion} />
         <Route path="/producto" exact component={Productos} />
@@ -44,12 +42,18 @@ function App() {
         <Route path="/darBajaCuenta" exact component={Baja} />
         <Route path="/historial" exact component={Historial} />
         <Route path="/seguimiento" exact component={Seguimiento} />
-        <Route path="/modificarDatosCliente" exact component={ModificarCliente} />
-        <Route path="/GestionarProductos" exact component={GestionarProductos} />
+        <Route
+          path="/modificarDatosCliente"
+          exact
+          component={ModificarCliente}
+        />
+        <Route
+          path="/GestionarProductos"
+          exact
+          component={GestionarProductos}
+        />
         <Route path="/AgregarProducto" exact component={AgregarProducto} />
-
       </Switch>
-      
     </Router>
   );
 }
